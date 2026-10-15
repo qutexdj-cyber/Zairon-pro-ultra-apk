@@ -1,0 +1,6 @@
+{
+  "name": "Zairon AI",
+  "description": "Futuristic JARVIS-inspired personal AI assistant with voice interaction, real intelligence, local memory, and tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

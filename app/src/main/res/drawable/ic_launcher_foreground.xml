@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer ambient energy ring -->
+    <path
+        android:pathData="M 54 26 A 28 28 0 1 1 53.99 26"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4"
+        android:strokeColor="#00FF9D" />
+
+    <!-- Orbital tech arcs -->
+    <path
+        android:pathData="M 54 30 A 24 24 0 0 1 78 54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 54 78 A 24 24 0 0 1 30 54"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00FF9D"
+        android:strokeLineCap="round" />
+
+    <!-- Inner glowing AI orb sphere -->
+    <path
+        android:pathData="M 54 36 A 18 18 0 1 1 53.99 36">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="40"
+                android:endX="66"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#00FFD0" android:offset="0.0" />
+                <item android:color="#00B865" android:offset="0.7" />
+                <item android:color="#034B28" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass gloss highlight -->
+    <path
+        android:pathData="M 45 42 A 8 5 0 0 1 59 44"
+        android:strokeWidth="1.8"
+        android:strokeAlpha="0.75"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Core pulse diamond node -->
+    <path
+        android:pathData="M 54 48 L 59 54 L 54 60 L 49 54 Z"
+        android:fillColor="#E0FFF6" />
+
+    <!-- Peripheral satellite beacons -->
+    <path
+        android:pathData="M 54 23 A 2 2 0 1 1 53.99 23"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M 85 54 A 2 2 0 1 1 84.99 54"
+        android:fillColor="#00FF9D" />
+    <path
+        android:pathData="M 54 85 A 2 2 0 1 1 53.99 85"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M 23 54 A 2 2 0 1 1 22.99 54"
+        android:fillColor="#00FF9D" />
+</vector>
